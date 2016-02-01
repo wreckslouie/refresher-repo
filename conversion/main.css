@@ -1,0 +1,208 @@
+html, div, p, span{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+html, body{
+	padding: 0;
+	margin: 0;
+	line-height: normal;
+}
+
+a{
+	text-decoration: none;
+}
+
+.landing-head{
+	background: url(../images/header.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.content-wrap{
+	display: table;
+	height: 100vh;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.content{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.search-form{
+	margin: 80px 0 40px;
+	position: relative;
+}
+
+.search-form i{
+	position: absolute;
+	top: 20px;
+	font-size: 26px;
+	right: calc(12% - 20px);
+	color: #d1d1d1;
+}
+
+.search-text{
+	border: none;
+	border-radius: 4px;
+	font-size: 26px;
+	padding: 20px 20px 20px 40px;
+	width: 80%;
+}
+
+.search-text:focus{
+	outline: none;
+}
+
+.content p{
+	width: 70%;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.restaurants{
+	margin: 50px -15px 0;
+}
+
+.restaurants:after{
+	content: " ";
+	clear: both;
+	float: none ;
+	position: relative;
+	display: block;
+}
+
+.block{
+	margin: 0 15px;
+	margin-bottom: 25px;
+	padding: 150px 15px 15px;
+}
+
+.block-wrap{
+	width: 33.33%;
+	float: left;
+}
+
+.block h3{
+	margin: 0;
+}
+.block h3 a, .block ul li a{
+	color: white;
+}
+
+.block ul{
+	padding: 0;
+	margin: 5px 0 0;
+}
+.block ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+.featured-restaurants{
+	padding: 60px 0;
+}
+
+.heading:after{
+	display: block;
+	content: " ";
+	clear: both;
+}
+.heading i{
+	float: left;
+	background: #c10000;
+	color:#fff;
+	text-align: center;
+	padding: 10px 11px;
+	border-radius: 500px;
+	font-size: 33px;
+}
+.heading h2{
+	margin: 0 0 2px 66px;
+}
+.heading small{
+	color: #d1d2d2;
+	margin-left: 14px;
+}
+
+footer{
+	background: #c10000;
+	color: #fff;
+	padding: 60px 0;
+}
+
+footer:after{
+	float: none;
+	clear: both;
+	content: " ";
+	display: block;
+}
+
+footer h4{
+	margin-top: 0;
+}
+
+.footer-logo{
+	width: 12%;
+	float: left;
+}
+
+.footer-logo img{
+	width: 100%
+}
+
+.footer-block{
+	width: 25%;
+	float: left;
+	margin-left:  40px;
+}
+
+.button-common{
+	background: #980000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    width: 100px;
+    font-size: 13px;
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+
+.wide-block ul{
+	padding: 0;
+}
+
+.wide-block li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+.wide-block a {
+	text-align: center;
+	width: 25px;
+	height: 26px;
+	color: #c10000;
+	background: #fff;
+	padding: 5px 6px;
+	border-radius: 100px;
+	display: block;
+	font-size: 20px
+}
+
+@media (max-width: 1169px){
+	.container{
+		width: 85%;
+	}
+}
